@@ -77,5 +77,4 @@ function play() {
 }
 
 winningNum = play();
-console.log("the last board to win has score: "
-    + sumOfNonMarked(boardsWon[boardsWon.length-1]) * winningNum);
+console.log(sumOfNonMarked(boardsWon[boardsWon.length-1]) * winningNum);

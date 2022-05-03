@@ -24,4 +24,4 @@ const gamma = parseInt(sums.map(function (sum) {
 
 const epsilon = gamma ^ ((1 << arr[0].length) - 1);
 
-console.log("gamma * epsilon = " + gamma * epsilon);
+console.log(gamma * epsilon);

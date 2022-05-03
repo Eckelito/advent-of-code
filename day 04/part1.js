@@ -75,5 +75,4 @@ function play() {
 }
 
 winningNum = play();
-console.log("the score of the winning board is: "
-    + sumOfNonMarked(winningBoard) * winningNum);
+console.log(sumOfNonMarked(winningBoard) * winningNum);

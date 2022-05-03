@@ -14,6 +14,4 @@ instructions.forEach(instruction => {
   else if (instruction.direction == "forward") horizPos += instruction.distance;
 });
 
-console.log("depth: " + depth);
-console.log("horizontal pos: " + horizPos);
-console.log("depth * horizontal pos: " + depth * horizPos);
+console.log(depth * horizPos);

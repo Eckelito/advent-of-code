@@ -22,4 +22,4 @@ for (i = lowestPos; i <= highestPos; i++) {
     }
 }
 
-console.log("minimum fuel required: " + minFuel);
+console.log(minFuel);

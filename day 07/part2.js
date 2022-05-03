@@ -31,6 +31,5 @@ for (i = lowestPos; i <= highestPos; i++) {
     }
 }
 
-console.log("minimum fuel required: " + minFuel);
 var endTime = performance.now();
-console.log(`Call to doSomething took ${endTime - startTime} milliseconds`)
+console.log(endTime - startTime);

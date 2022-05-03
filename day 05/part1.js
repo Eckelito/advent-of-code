@@ -63,4 +63,4 @@ for(let key in grid) {
     }
 }
 
-console.log("points of overlap: " + pointsOfOverlap);
+console.log(pointsOfOverlap);

@@ -21,4 +21,4 @@ for (group of groups) {
     sum += group;
 }
 
-console.log("number of fishes: " + sum);
+console.log(sum);

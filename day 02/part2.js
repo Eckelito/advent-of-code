@@ -20,6 +20,5 @@ instructions.forEach(instruction => {
   }
 });
 
-console.log("depth: " + depth);
-console.log("horizontal pos: " + horizPos);
-console.log("depth * horizontal pos: " + depth * horizPos);
+
+console.log(depth * horizPos);

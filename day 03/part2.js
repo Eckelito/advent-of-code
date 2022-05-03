@@ -35,4 +35,4 @@ const oxyRating = parseInt(getRating(false).join(''), 2);
 const scrubRating = parseInt(getRating(true).join(''), 2);
 const lifeSupRating = oxyRating * scrubRating;
 
-console.log("life support rating is " + lifeSupRating);
+console.log(lifeSupRating);
